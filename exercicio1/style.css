@@ -1,33 +1,53 @@
-#texto-fonte-root{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+html {
+    font-size: 10px;
+}
+
+#texto-fonte-root{
+    font-size: 3em;
 }
 
 #texto-paddings-verticais{
-
+    background-color: rgb(246, 184, 103);
+    padding: 2rem 0;
 }
 
 #altura-porcentagem-comprimento{
-
+    background-color: lightgrey;
+    height: 20vw;
 }
 
 #comprimento-metade-altura{
-
+    background-color: rgb(9, 175, 20);
+    width: 50vh;
 }
 
 .container{
-    border: 1px solid black;
+    border: 1px solid black; 
     width: 400px;
     font-size: 20px;
 }
 
 #fonte-setenta{
-
+    background-color: aqua;
+    font-size: 0.7em;
 }
 
 #comprimento-pai{
+    background-color: brown;
+    width: 10%;
+}
 
+ul {
+    height: 400px;
 }
 
 #altura-pai{
-
+    background-color: lightsalmon;
+    height: 10%;
 }

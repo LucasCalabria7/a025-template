@@ -46,3 +46,27 @@
     padding: 20px;
     width: 100%;
   }
+
+  @media screen and (max-device-width: 480px){
+    header {
+      height: 5vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
+    main {
+      height: 90vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30vh;
+    }
+    footer {
+      height: 0.5vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      position: static;
+      bottom: 0;
+    }
+  }
